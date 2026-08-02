@@ -1,0 +1,19 @@
+generated: '2026-07-21'
+method: searched
+probe: true
+url: https://www.veritas.com/why-veritas/trust/compliance
+certifications:
+- SOC 2
+- FedRAMP
+- FIPS 140
+- HIPAA
+- GDPR
+- CCPA
+evidence:
+- source: https://www.veritas.com/why-veritas/trust/compliance
+  keywords: [soc 2, fedramp, fips 140, hipaa, gdpr, ccpa]
+notes: >-
+  Veritas publishes a public trust and compliance program. SOC 2 Type 2 attestation
+  is publicly announced for Alta View and Alta Recovery Vault. Certification names
+  were extracted verbatim from the live compliance page; ISO 27001 was not present
+  on the page at probe time and is therefore not asserted here.

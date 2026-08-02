@@ -1,8 +1,24 @@
 aid: veritas-software
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/veritas-software.png
 name: Veritas Software
-description: 'Veritas Software is a company surfaced as a portfolio company of accel and added to the
-  API Evangelist network as a stub for enrichment. Sector: cloud-saas. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Veritas Technologies (originally Veritas Software) is an enterprise data
+  management and protection vendor whose products — NetBackup, Alta, Backup Exec, and
+  InfoScale — expose RESTful APIs for automating backup, recovery, storage provisioning,
+  and data governance. NetBackup ships Swagger/OpenAPI-documented REST APIs served from
+  the master server, with first-party code samples published under the VeritasOS GitHub
+  organization. The company runs a public trust and compliance program covering SOC 2,
+  FedRAMP, HIPAA, FIPS 140, GDPR, and CCPA. Accel is among its historical investors.'
 url: https://raw.githubusercontent.com/api-evangelist/veritas-software/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,13 +28,45 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Cloud Saas
+- Data Protection
+- Backup
+- Storage
+- Data Management
+- Enterprise
+- Cloud
 apis: []
+common:
+- type: Website
+  url: https://www.veritas.com
+- type: Documentation
+  url: https://www.veritas.com/solution/api
+- type: Support
+  url: https://www.veritas.com/support
+- type: Blog
+  url: https://www.veritas.com/blogs
+- type: GitHubOrganization
+  url: https://github.com/VeritasOS
+- type: TermsOfService
+  url: https://www.veritas.com/company/legal
+- type: PrivacyPolicy
+  url: https://www.veritas.com/company/privacy
+- type: Compliance
+  url: https://www.veritas.com/why-veritas/trust/compliance
+- type: TrustCenter
+  url: security/veritas-software-trust-center.yml
+- type: DomainSecurity
+  url: security/veritas-software-domain-security.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: enriched
+  artifacts_added: 3
+  pass: local-v1

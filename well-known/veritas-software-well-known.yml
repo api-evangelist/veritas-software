@@ -1,0 +1,16 @@
+generated: '2026-07-21'
+method: searched
+host: https://www.veritas.com
+source: live probes of /.well-known/ discovery surface
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+notes: >-
+  No /.well-known/ discovery documents are published on www.veritas.com. The former
+  developer portal (developer.veritas.com) no longer resolves (NXDOMAIN), so no host
+  exposes an OIDC/OAuth discovery or API-catalog surface. Absence recorded as valid
+  negative result; no WellKnown scoring pointer emitted since nothing was found.
